@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/creator" android:title="Creator"></item>
+    <item android:id="@+id/exit" android:title="App Exit"></item>
+    <item android:id="@+id/color_pallet" android:title="Color Pallet">
+        <menu>
+            <item android:id="@+id/color" android:title="Black-White"></item>
+            <item android:id="@+id/color2" android:title="Red-Yellow"></item>
+        </menu>
+    </item>
+</menu>
