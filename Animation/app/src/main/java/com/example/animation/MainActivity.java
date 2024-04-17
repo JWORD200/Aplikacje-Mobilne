@@ -94,7 +94,7 @@ class BubbleAnimation extends View {
 
     private void createBubble() {
         Random random = new Random();
-        if (random.nextInt(5) == 0) {
+        if (random.nextInt(5) == 0) {`
             int x = random.nextInt(getWidth());
             int radius = random.nextInt(50) + 20;
             bubbles.add(new Bubble(x, getHeight(), radius));
